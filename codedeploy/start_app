@@ -1,1 +1,1 @@
-forever -o /home/ec2-user/app.log -e /home/ec2-user/app.error.log start /home/ec2-user/app/main.js --flags --here
+forever -o /home/ec2-user/countly_app.log -e /home/ec2-user/countly_app.error.log start /home/ec2-user/countly/frontend/express/app.js --flags --here

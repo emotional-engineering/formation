@@ -2,9 +2,9 @@ version: 0.0
 os: linux
 files:
    - source: /
-     destination: /home/ec2-user/app/
+     destination: /home/ec2-user/countly/
 permissions:
-   - object: /home/ec2-user/app/
+   - object: /home/ec2-user/countly/
      pattern: "**"
      owner: ec2-user
      group: ec2-user
@@ -17,7 +17,7 @@ hooks:
       timeout: 300
       runas: root
   ApplicationStart:
-    - location: codedeploy/npm_install
+    - location: codedeploy/install
       timeout: 300
       runas: root
     - location: codedeploy/start_app
