@@ -1,2 +1,2 @@
-rm -fr /home/ec2-user/app
+rm -fr /home/ubuntu/countly
 forever stopall

@@ -1,1 +1,1 @@
-forever -o /home/ec2-user/countly_app.log -e /home/ec2-user/countly_app.error.log start /home/ec2-user/countly/frontend/express/app.js --flags --here
+forever -o /home/ubuntu/countly_app.log -e /home/ubuntu/countly_app.error.log start /home/ubuntu/countly/countly-server/frontend/express/app.js --flags --here
